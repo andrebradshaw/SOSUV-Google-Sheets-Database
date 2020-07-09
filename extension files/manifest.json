@@ -5,7 +5,7 @@
     "description": "Testing sending data to Google Sheets",
     "content_scripts": [{
       "matches": ["https://github.com/*","https://api.github.com/*/*","https://script.google.com/*/*/*"],
-      "js": ["content.js","formcreator.js","handleFetch.js"]
+      "js": ["content.js"]
     }],
     "background" : {
       "scripts" : ["background.js","githubAPI.js"]
